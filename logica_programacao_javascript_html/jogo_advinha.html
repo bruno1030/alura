@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function imprime(frase){
+		document.write(frase)
+		pulaLinha();
+	}
+
+	function sorteia(){
+		
+		return Math.round(Math.random()) ;
+	}
+
+	var numeroSorteado = sorteia();
+
+	var chute = prompt("Advinhe qual o número sorteado");
+
+	if(chute == numeroSorteado){
+		imprime("Parabens, vc acertou");
+		imprime("Numero sorteado foi: " + numeroSorteado);
+	}
+	else{
+		imprime("Infelizmente vc errou. Numero sorteado foi: " + numeroSorteado + ", e vc digitou: " + chute);
+	}
+
+</script>

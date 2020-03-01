@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<h1>Receitas Bruno</h1>
+
+<script>
+    var ingredientes = [];
+
+    var qtdIngredientes = parseInt(prompt("Quantos ingredientes vc deseja?"));
+
+    var contador = 1;
+
+    while(contador <= qtdIngredientes) {
+        var ingrediente = prompt("Informe o " + contador + "o ingrediente");
+        var existe = false;
+
+        for (var i = 0; i < qtdIngredientes; i++) {
+            
+        	if(ingrediente == ingredientes[i]){
+
+        		alert("Este ingrediente já existe.");
+
+                existe = true;
+                break;
+        	}
+        }
+
+            if(existe == false){
+        		ingredientes.push(ingrediente);
+                contador++;
+        	}
+    }
+
+    console.log(ingredientes);
+    document.write(ingredientes);
+</script>

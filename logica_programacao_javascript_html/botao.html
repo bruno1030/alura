@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Fazer multiplicação por 2</button>
+
+<script>
+
+	var entrada = document.querySelector("input");
+	var botao = document.querySelector("button");
+	var erro = "Resultado inválido, recarregue a página."
+
+	function imprime(msg){
+		document.write(msg + "<br><br>");
+	}
+
+	function multiplica(){
+		var resultado = entrada.value * 2;
+
+		if(isNaN(resultado)){
+			imprime(erro);
+		}else{
+			imprime(resultado);
+		}
+	}
+
+	botao.onclick = multiplica;
+
+</script>

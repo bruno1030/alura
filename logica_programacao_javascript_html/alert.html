@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+
+	var loginCadastrado = "x";
+	var senhaCadastrada = "x";
+
+	var tentativa = 1;
+	var qtdPermitida = 3;
+
+
+	while(tentativa <= qtdPermitida){
+
+		var loginDigitado = prompt("Digite o login");
+		var senhaDigitada = prompt("Digite a senha");
+
+		if(loginDigitado == loginCadastrado && senhaDigitada == senhaCadastrada){
+			alert("LOGADO COM SUCESSO");
+			tentativa = qtdPermitida + 1;
+		}else{
+			if(tentativa == qtdPermitida){
+				alert("Essa foi a ultima chance");
+			}
+		}
+		tentativa ++;
+	}
+
+
+</script>

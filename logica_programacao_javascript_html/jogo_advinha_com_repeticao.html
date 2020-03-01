@@ -1,0 +1,37 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function imprime(mensagem){
+		document.write(mensagem);
+		pulaLinha();
+	}
+
+	var numeroSorteado = parseInt(Math.round(Math.random()));
+
+
+	var tentativaAtual = 1;
+	var qtdMaxTentativas = 3;
+
+	while(tentativaAtual <= qtdMaxTentativas){
+
+		var chute = parseInt(prompt("advinhe o numero sorteado pelo sistema"));
+		
+		if(chute == numeroSorteado){
+			imprime("Parabéns, vc acertou !");
+			tentativaAtual = qtdMaxTentativas+1;
+		}else{
+			if(tentativaAtual == qtdMaxTentativas){
+				imprime("vc nao tem mais tentativas, o numero correto era " + numeroSorteado);
+			}
+		}
+		tentativaAtual++;
+	}
+
+
+
+
+</script>

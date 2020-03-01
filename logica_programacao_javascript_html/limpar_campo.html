@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Chute um número de 1 a 3</button>
+
+<script>
+
+	var entrada = document.querySelector("input");
+	var botao = document.querySelector("button");
+
+	var segredo = 3;
+	var erro = "Errou, tente novamente."
+	var sucesso = "Parabéns, vc acertou!"
+
+
+	function verifica(){
+		
+		if(isNaN(entrada.value)){
+			alert("Caracter inválido, tente novamente");
+			entrada.value = ""
+			entrada.focus();;
+		}else{
+			if(entrada.value == segredo){
+				alert(sucesso);
+			}else{
+				alert(erro);
+				entrada.value = ""
+				entrada.focus();;
+			}
+		}
+
+	}
+
+	botao.onclick = verifica;
+
+</script>
