@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function imprime(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+
+	function calculaPontuacao(vitorias, empates){
+		var pontuacao = (vitorias *3) + (empates *1)
+		return pontuacao;
+	}
+
+	var vitoriasUsuario = prompt("Insira o número de vitorias");
+	var empatesUsuario = prompt("Insira o número de empates");
+	var pontuacaoUsuario = calculaPontuacao(vitoriasUsuario, empatesUsuario);
+	var pontuacaoAnoPassado = 20;
+	
+	imprime("Pontuacao no ano passado: " + pontuacaoAnoPassado);
+	imprime("Pontuacao de agora: " + pontuacaoUsuario);
+
+	if(pontuacaoUsuario < pontuacaoAnoPassado){
+		imprime("A pontuação deste ano está pior que do ano passado !");
+	};
+
+	if(pontuacaoUsuario == pontuacaoAnoPassado){
+		imprime("A pontuação deste ano está igual à do ano passado.");
+	};
+
+	if(pontuacaoUsuario > pontuacaoAnoPassado){
+		imprime("A pontuação deste ano está maior que do ano passado. Parabéns !");
+	};
+
+
+
+</script>

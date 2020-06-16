@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function imprime(mensagem){
+		document.write(mensagem);
+		pulaLinha();
+	}
+
+	imprime("<h2>Todos os números de 30 a 40, pulando o 33 e o 37:</h2>")
+
+	contador = 30;
+
+	while(contador <= 40){
+		if(contador != 33){
+			if(contador !=37){
+				imprime(contador);
+			}
+		}
+		contador ++;
+	}
+
+	pulaLinha();
+
+	imprime("<h2>Todos os números de 20 a 0, incluindo os extremos:</h2>");
+
+	i = 20;
+
+	while(i <= 20 & i=> 0){
+	//	if(i >= 0){
+			imprime(i);
+	//	}
+	//	i --;
+	//}
+
+</script>

@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<input/>
+<button>Chute um numero de 1 a 10. Voce tem 5 chances de acertar</button>
+
+<script>
+
+	var entrada = document.querySelector("input");
+	var botao = document.querySelector("button");
+
+	var segredos = [2,4,5,7,10];
+
+	function verifica(){
+		for (var i = 0; i < segredos.length; i++) {
+			if(entrada.value == segredos[i]){
+				alert("Você acertou, o número " + entrada.value + " é um dos segredos.");
+				i = segredos.length + 1;
+			}else{
+				alert("vc errou, tente novamente");
+				break;
+				entrada.value = "";
+				entrada.focus();
+			}
+		};
+	}
+
+	botao.onclick = verifica;
+
+
+</script>
