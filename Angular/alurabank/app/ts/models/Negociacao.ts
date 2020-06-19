@@ -1,6 +1,6 @@
 class Negociacao{
 
-    //declaracao das propriedades de classe
+    // declaracao das propriedades de classe
     private _data;
     private _quantidade;
     private _valor;
