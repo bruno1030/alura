@@ -1,2 +1,7 @@
-const negociacao = new Negociacao(new Date(), 1, 100);   //ali nos parametros eu passei uma nova data, passei 1 como quantidade e 100 como valor
-console.log(negociacao.volume)
+//esse arquivo eh o ponto de entrada da minha aplicacao.
+//e nesse caso, o que ele vai fazer eh criar uma instancia e NegociacaoController
+const controller = new NegociacaoController();  
+
+document
+    .querySelector('.form')
+    .addEventListener('submit', controller.adiciona.bind(controller));
