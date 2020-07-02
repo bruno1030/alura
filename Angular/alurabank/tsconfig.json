@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6",
         "outDir": "app/js",
-        "noEmitOnError": true    //isso daqui nao permite que seja gerado um arquivo javascript a partir do meu typescript, enquanto o meu arquivo typescript esteja com erro
+        "noEmitOnError": true,    //isso daqui nao permite que seja gerado um arquivo javascript a partir do meu typescript, enquanto o meu arquivo typescript esteja com erro
+        "noImplicitAny": true
     },
     "include": [
         "app/ts/**/*"
