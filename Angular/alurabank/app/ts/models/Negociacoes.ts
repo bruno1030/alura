@@ -5,12 +5,12 @@ class Negociacoes{
 
     private _negociacoes: Negociacao[] = [];      // aqui eu criei um array que ira receber objetos do tipo Negociacao. A vantagem eh que o TypeScript nao vai deixar eu incluir objetos de outros tipos dentro dessa lista, dentro desse array
 
-    adiciona(negociacao: Negociacao){
+    adiciona(negociacao: Negociacao): void{
         this._negociacoes.push(negociacao);
     }
 
-    paraArray(){          //esse metodo eh para eu ter acesso a essa lista de negociacoes encapsuladas, pra eu poder exibir para o usuario
-        return this._negociacoes;
+    paraArray(): Negociacao[] {          //esse metodo eh para eu ter acesso a essa lista de negociacoes encapsuladas, pra eu poder exibir para o usuario
+        return [].concat(this._negociacoes);
     }
 
 }
