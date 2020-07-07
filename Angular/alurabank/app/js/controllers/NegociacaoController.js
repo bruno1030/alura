@@ -3,7 +3,7 @@ class NegociacaoController {
     constructor() {
         this._negociacoes = new Negociacoes();
         this._negociacoesView = new NegociacoesView('#negociacoesView');
-        //aqui embaixo vamos fazer o casting (usando <>), que eh para transformar um cara mais generico (element do querySelector) para um tipo mais especifico (HTMLInputElement)
+        // aqui embaixo vamos fazer o casting (usando <>), que eh para transformar um cara mais generico (element do querySelector) para um tipo mais especifico (HTMLInputElement)
         this._inputData = document.querySelector('#data'); // dentro dos parenteses eh o id do meu HTML, e la o id esta com esse nome "data"
         this._inputQuantidade = document.querySelector('#quantidade');
         this._inputValor = document.querySelector('#valor');
