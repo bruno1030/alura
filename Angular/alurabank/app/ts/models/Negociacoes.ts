@@ -9,7 +9,7 @@ class Negociacoes{
         this._negociacoes.push(negociacao);
     }
 
-    paraArray(): Negociacao[] {          //esse metodo eh para eu ter acesso a essa lista de negociacoes encapsuladas, pra eu poder exibir para o usuario
+    paraArray(): Negociacao[] {          // esse metodo eh para eu ter acesso a essa lista de negociacoes encapsuladas, pra eu poder exibir para o usuario
         return [].concat(this._negociacoes);
     }
 
