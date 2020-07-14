@@ -3,7 +3,7 @@
 class NegociacaoController{
 
     private _inputData: HTMLInputElement;  // eh o elemento do DOM que corresponde ao input da data
-    private _inputQuantidade: HTMLInputElement; // eh o elemento do DOM que corresponde ao input da quantidade
+    private _inputQuantidade: HTMLInputElement; //  eh o elemento do DOM que corresponde ao input da quantidade
     private _inputValor: HTMLInputElement;   // tanto o private como o underline me ajudam para que sejam atributos privados, ninguem tenha acesso fora da classe. Pode ser soh o private ou o underline, mas eh bom sim usar os dois, seguir a convencao que fala do underline. Mas em tese soh o private ja seria suficiente
     private _negociacoes = new Negociacoes();
     private _negociacoesView = new NegociacoesView('#negociacoesView');
