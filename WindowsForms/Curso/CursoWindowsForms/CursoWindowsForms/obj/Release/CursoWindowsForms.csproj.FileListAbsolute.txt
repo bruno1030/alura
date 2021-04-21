@@ -1,0 +1,16 @@
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsForms.exe.config
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsForms.exe
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\bin\Release\CursoWindowsForms.pdb
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csprojAssemblyReference.cache
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Form1.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_DemonstracaoKeys.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Mascara.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaSenha.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.Properties.Resources.resources
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.GenerateResource.cache
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CoreCompileInputs.cache
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.exe
+C:\SYSTEMS\STUDY\Alura\WindowsForms\Curso\CursoWindowsForms\CursoWindowsForms\obj\Release\CursoWindowsForms.pdb
